@@ -6,7 +6,7 @@ Petri Nets Model Checker in Shellscript
 <code>./resdespetri.sh <input-file></code>
 
 <p>Input File Example</p>
-<code>
+<p>
 6 4         -> p(places), t(transitions)<br>
 1 0 0 0     -> I[p][t]<br>
 0 1 0 0     -> ..<br>
@@ -23,4 +23,4 @@ Petri Nets Model Checker in Shellscript
 1 0 0 0 1 0 -> Input[1][p]: Initial Markup<br>
 0 0 0 0 1 1 -> Output[1][p]: Final Markup<br>
 -1          -> END OF FILE
-</code>
+</p>
