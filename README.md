@@ -7,20 +7,20 @@ Petri Nets Model Checker in Shellscript
 
 <p>Input File Example</p>
 <code>
-6 4         -> p(places), t(transitions)
-1 0 0 0     -> I[p][t]
-0 1 0 0     -> ..
-0 0 1 0     -> ..
-0 1 0 0     -> ..
-0 0 1 0     -> ..
-0 0 0 1     -> ..
-0 0 0 1     -> O[p][t]
-1 0 0 0     -> ..
-1 0 0 0     -> ..
-0 0 1 0     -> ..
-0 1 0 0     -> ..
-0 1 0 0     -> ..
-1 0 0 0 1 0 -> Input[1][p]: Initial Markup
-0 0 0 0 1 1 -> Output[1][p]: Final Markup
+6 4         -> p(places), t(transitions)<br>
+1 0 0 0     -> I[p][t]<br>
+0 1 0 0     -> ..<br>
+0 0 1 0     -> ..<br>
+0 1 0 0     -> ..<br>
+0 0 1 0     -> ..<br>
+0 0 0 1     -> ..<br>
+0 0 0 1     -> O[p][t]<br>
+1 0 0 0     -> ..<br>
+1 0 0 0     -> ..<br>
+0 0 1 0     -> ..<br>
+0 1 0 0     -> ..<br>
+0 1 0 0     -> ..<br>
+1 0 0 0 1 0 -> Input[1][p]: Initial Markup<br>
+0 0 0 0 1 1 -> Output[1][p]: Final Markup<br>
 -1          -> END OF FILE
 </code>
